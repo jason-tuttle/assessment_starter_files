@@ -19,7 +19,7 @@ Dog.prototype.pet = function() {
 };
 Dog.prototype.feed = function() {
   this.hungry = false;
-}
+};
 // Instances of Dog
 // Needed: sadie, moonshine, atticus
 const sadie = new Dog('sadie', 'normal', 'black', false);
